@@ -1,17 +1,34 @@
-# Pegasus Core 🧠🐎
+# 🦄 Pegasus Streamlit Demo
 
-Welcome to the official Pegasus Loop development repo.
+Welcome to the lightweight Pegasus Loop prototype — a personal GPT-powered assistant you can run locally. This demo lets you:
 
-This project explores:
-- Generative AI prompt design
-- LangChain and OpenAI integrations
-- Streamlit and Gradio prototypes
-- Emotional recursion (yes, really)
+- Ask natural language questions via a clean Streamlit UI
+- Get answers from GPT-4-1106-preview
+- Track session ID, email, full logs, token usage, and cost
+- Automatically log all inputs/outputs to a local file for future analysis
 
-### Key Folders
-- `app/` – live demos and interfaces
-- `notebooks/` – experimental GPT prompts and workflows
-- `docs/` – internal references, project plans
+---
 
-Created by Lydia 🦄  
-Powered by Pegasus 💻✨
+## 🚀 Setup Instructions
+
+### 🔧 Prerequisites
+
+- Python 3.9 or higher
+- [OpenAI API key](https://platform.openai.com/account/api-keys)
+- Git (optional, but recommended)
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/pegasusloop/pegasus-core.git
+cd pegasus-core
+
+# Create and activate a virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
